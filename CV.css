@@ -1,0 +1,74 @@
+body, html {
+ margin: 0;
+ padding: 0;
+ font-family: 'Lora', serif;
+ background-color: white;
+ width: 100%;
+ z-index: -11;
+}
+
+.nav-bar {
+ background-color: white;
+ z-index: 9999;
+ height: 100px;
+ width: 100%;
+ position: absolute;
+}
+
+.nav-bar ul {
+ overflow: hidden;
+ margin: auto;
+ padding: auto;
+ margin-left: 40%;
+}
+
+.nav-bar li {
+ display: block;
+ text-decoration: none;
+ float: left;
+}
+
+.nav-bar li a {
+ display: block;
+ text-decoration: none;
+ color: black;
+ padding: 15px 40px;
+ margin-top: 20px;
+ font-size: 20px;
+}
+
+a:hover {
+ color: white;
+ font-size: larger;
+ line-height: 26pt;
+}
+
+.active h1 {
+ background-color: black;
+}
+
+.download {
+	top: 20%;
+	position: absolute;
+	left: 5%;
+}
+
+.download a {
+  text-decoration: none;
+}
+
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  z-index: 99;
+}
+
+.iframe iframe{
+	margin-left: 22%;
+  margin-top: 50px;
+}
+
